@@ -1,10 +1,45 @@
-html {
-background-color: indianred;
-text-align: center;
-}
+
 h1 {
   text-align: center;
-  font-family: serif;
-  font-size: 40px;
-  color: cyan;
+  font-size: 30px;
+  font-style: italic;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+ul {
+  text-align: left;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+#output {
+  text-align: center;
+  font-size: 30px;
+}
+
+.panel-body1 {
+  width:500px;
+  height:400px;
+  text-align: center;
+  float:center;
+  background-color: lightblue;
+}
+
+.panel-body2 {
+  width:500px;
+  height:400px;
+  text-align: center;
+  float:center;
+  background-color: lightblue;
+}
+body {
+  background-color: limegreen;
 }
