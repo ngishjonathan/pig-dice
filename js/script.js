@@ -13,7 +13,7 @@ function Player(turn) {
   this.turn = turn;
   this.playerName;
 }
-console.log(this.playerName);
+
 // checking for 1
 Player.prototype.rollone = function() {
   if (this.roll === 1) {

@@ -1,58 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <title>Pig Dice Game</title>
+     <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
+       <link href="css/styles.css" rel="stylesheet" style="text/css">
+         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+         <script src="js/scripts.js"></script>
+         <title>PIG DICE GAME</title>
   </head>
+
   <body>
 
-    <div class="start-menu container">
-      <div class="jumbotron">
-        <h1>PIG DICE GAME</h1>
-        <h2>Let's play Pig Dice</h2>
-          <form id="player-1">
-            <div class="form-group">
-              <label for="player1Name">Player 1 Name:</label>
-              <input required class="player1Name form-control" type="text">
-            </div>
-          </form>
-          <form id="player-2">
-            <div class="form-group">
-              <label for="player2Name">Player 2 Name:</label>
-              <input required class="player2Name form-control" type="text">
-            </div>
-          </form>
-          <button id="start" class="btn-info btn">Start</button>
-      </div>
-    </div>
+     <div class="container">
+        <div class="well">
+               <h1>Welcome to the pig dice game. This is a very interesting and interactive game.</h1>
+                   <p>Here are the game rules:
+                     <ul>
+                       <li>To start, roll a die. The goal is to accumulate as many point as possible, adding up the numbers rolled on the die.</li>
+                       <li>The first player to score more than 100 points wins.</li>
+                       <li>If the number is 2, 3, 4, 5 or 6, you score. You get to  keep your points and can roll again.</li>
+                       <li>As long as you don't roll number 1, you're fine. If you do, you forfeit any points accumulated during this turn.</li>
+                       <li>If a player chooses to 'hold', their turn total is added to the score and it  becomes the next player's turn to play.</li>
+                     </ul>
+                   </p>
+               <h2> All the best. Now, let's start playing</h2>
+        </div>
+     </div>
 
-    <div class="player-console container">
-        <button id="new-game" class="btn-success btn">NEW GAME</button>
-        <div class = "row">
-          <div class="col-md-6">
-            <h2>Player 1: <span id = "player1Name"><span></h2>
-              <button id="player1-roll" class="btn-success btn">Roll</button>
-              <button id="player1-hold" class="btn-success btn">Hold</button>
-            <h2>Dice Roll: <span id="die-roll-1"></span></h2>
-            <p>Round Total: <span id="round-total-1"></span></p>
-            <p>Total Score: <span id="total-score-1"></span></p>
-          </div>
+    <div class= "container">
+      <div class = "jumotron">
+       <div class = "col-md-5">
+          <div class = "panel panel-default">
+            <div class ="panel-body1">
+                <p>PLAYER 1</p>
+                   <div class = "scoreboard">
+                      <h2> <div id ="die1"> DIE ROLL:</div></h2>
+                      <h2> <div id="cmlScore1">CUMMULATIVE SCORE:</div></h2>
+                      <h2><div id ="fnlScore1">FINAL SCORE:</div></h2>
+                      <br><button id="spin1" class="butn" type="submit">Roll</button><br>
+                      <br><button id="hold1" class="butn" type="reset">Hold</button><br>
+                   </div>
+            </div>
+        </div>
+     </div>
 
-        <div class="col-md-6">
-          <h2>Player 2: <span id = "player2Name"><span></h2>
-            <button id="player2-roll" class="btn-success btn">Roll</button>
-            <button id="player2-hold" class="btn-success btn">Hold</button>
-            <h2>Dice Roll: <span id="die-roll-2"></span></h2>
-            <p>Round Total: <span id="round-total-2"></span></p>
-            <p>Total Score: <span id="total-score-2"></span></p>
+     <div class = "col-md-5">
+        <div class = "panel panel-default">
+            <div class ="panel-body2">
+                <p>PLAYER 2</p>
+                   <div class = "scoreboard">
+                      <h2><div id ="die2">DIE ROLL:</div></h2>
+                      <h2><div id="cmlScore2">CUMMULATIVE SCORE:</div></h2>
+                      <h2><div id="fnlScore2">FINAL SCORE:</div></h2>
+                      <br><button id="spin2" class="butn" type="submit">Roll</button><br>
+                      <br><button id="hold2" class="butn" type="reset">Hold</button><br>
+                   </div>
+            </div>
         </div>
         </div>
-      </div>
-    <script src=js/script.js"></script>
-
+        </div>
+     </div>
 
 
   </body>
-</html>
+</html>                          
