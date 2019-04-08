@@ -1,7 +1,7 @@
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   font-style: italic;
   color: blue;
 }
@@ -42,7 +42,7 @@ h2 {
   background-color: lightblue;
 }
 body {
-  background-color: wheat;
+  background-color: cyan;
   }
 .img {
 text-align: center;

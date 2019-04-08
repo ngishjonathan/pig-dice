@@ -1,3 +1,4 @@
+//bussiness logic
 $(document).ready(function() {
 var cml1 = 0;
 var cml2 = 0;
@@ -29,7 +30,7 @@ else {
 };
  var player1 = new Player(player1, score1);
  var player2 = new Player(player2, score2);
-
+//user interface
 $("button#spin1").click(function(){
   var spin1 = diceRoll();
   if (spin1 != 1) {
