@@ -27,6 +27,7 @@ ngishjonathan.github.io/pig-dice
 4.JavaScript
 
 5.jQuery
+## BDD
 Behavior	Input	Outcome
 Player 1 inputs name and Player 2 inputs name, and clicks start button	Player 1: Olivia / Player 2: Matt / Click START	Goes to game console
 Player 1 clicks ROLL button	Click ROLL button	Dice rolls and number is generated
