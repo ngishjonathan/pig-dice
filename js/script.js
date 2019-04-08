@@ -1,3 +1,4 @@
+
 //bussiness logic
 $(document).ready(function() {
 var cml1 = 0;
@@ -11,7 +12,6 @@ var spin2 = "";
 var score1 = 0;
 var score2 = 0;
 var diceRoll= "";
-
 var diceRoll =function () { turn = Math.floor(Math.random() * 6) + 1;
 return turn;
 };
